@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model outputs (large files)
+outputs/checkpoints/
+outputs/logs/
+outputs/model_testing/
+outputs/predictions/
+outputs/eda/
+outputs/*/
+
+# Data files (too large for git)
+data/Train/images/
+data/Validation/images/
+data/Test/images/
+*.jpg
+*.jpeg
+*.png
+*.tiff
+
+# Keep data structure but ignore images
+!data/Train/.gitkeep
+!data/Validation/.gitkeep
+!data/Test/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Poetry
+poetry.lock
+
+# Backup folders
+backup_results_*/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
